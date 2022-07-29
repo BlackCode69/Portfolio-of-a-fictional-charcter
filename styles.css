@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color :#e3f0f3 ;
+}
+.sidebar{
+    position: absolute;
+    background-color:#e3f0f3 ;
+    font-family: 'Fira Sans', sans-serif;
+    height: 102vh;
+    padding-top: 35px;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 10px;
+    
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+
+.info-container{
+    height: 55vh;
+    width: 70vw;
+    margin: 110px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 65px;
+    
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+.about{
+    font-size: 30px;
+}
+.moreabout{
+    font-size: 22px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 23px;
+}
+.buttons{
+    margin-top: 34px;
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.devpic img{
+    height: 57vh;
+}
+
+
+.contactform{
+    padding:   0 34px;
+    padding-top: 60px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;  
+    margin: 0 88px; 
+}
+
+.contactform h1{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 12px 0;
+}
+
+.contactform  form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform  form div input{
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 13px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+.contactform form  button{
+    padding: 10px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(161, 4, 161);
+    font-weight: bold;
+    font-size: 14px;
+    margin: 12px 0;
+    cursor: pointer;
+}
+
+.contactform form  button:hover{
+    background-color: white;
+    color: rgb(161, 4, 161);
+}
+
+.contactdog{
+    color: rgb(161, 4, 161);
+    font-size: 60px;
+    font-weight: bold;
+    padding-right: 3px;
+}
+
+.aboutme{
+    font-family: 'Fira Sans', sans-serif;
+    padding:  12px;
+    font-size: 55px;
+}
+
+.intro h2{
+    font-family: 'Fira Sans', sans-serif;
+    padding:  15px ;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.intro p{
+    font-family: 'Source Code Pro', monospace;
+    padding: 12px;
+}
+
+.skillcontainer{
+    padding: 12px;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    border: 1px solid black;
+    background-color: red;
+}
+.hundered{
+    width:256px;
+    background-color:#E599C0 ;
+}
+.fifty{
+    width: 125px;
+    background-color: #CB4D70;
+}
+.t5{
+    width: 75px;
+    background-color:#FFD2CF ;
+}
+.s5{
+    width: 160px;
+    background-color:#695490 ;
+}
+
+#about{
+    color:#E599C0 ;
+    font-weight: 900;
+    font-size: 70px;
+    padding-right: 3px;
+}
+#my{
+    color:#E599C0 ;
+    font-weight: 900;
+    font-size: 65px;
+    padding-right: 5px;
+}
+
+.sidebargo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.ham{
+    position: absolute;
+    cursor: pointer;
+    top: 6px;
+    left: 6px;
+}
+
+.cross{
+    position: absolute;
+    cursor: pointer;
+    top: 6px;
+    left: 10px;
+    margin-left: 185px;
+}
+
+.sasuke{
+    color: dodgerblue; ;
+
+}
+
+ @media (max-width: 1120px){ 
+    
+    .devpic {
+        display: none;
+    }
+     .contactform{
+        margin:  50px 8px;
+    }
+    .intro{
+        margin: 50px 0 0 40px;  
+    }
+    /*.sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }*/
+
+}
+   
